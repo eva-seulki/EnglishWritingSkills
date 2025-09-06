@@ -44,28 +44,28 @@ POST /api/save-progress - 진행 상황 저장
 GET /api/health - 헬스 체크  
 
 # 🛠️ 설치 및 실행  
-bash# 1. 의존성 설치  
+## 1. 의존성 설치  
 ~~~bash
 npm install  
 ~~~
 
-# 2. 환경 변수 설정  
+## 2. 환경 변수 설정  
 ~~~bash
 cp .env.example .env
 ~~~
 
-# 3. 개발 서버 실행  
+## 3. 개발 서버 실행  
 ~~~bash
 npm run dev
 ~~~
 
-# 4. 클라이언트 설치 및 실행  
+## 4. 클라이언트 설치 및 실행  
 ~~~bash  
 npm run install-client  
 npm run client
 ~~~
 
-🤖 실제 AI 연동 방법  
+# 🤖 실제 AI 연동 방법  
 OpenAI API 연동:  
 ~~~javscript
 javascriptconst openai = new OpenAI({ 
