@@ -1,6 +1,6 @@
-📁 프로젝트 구조
+# 📁 프로젝트 구조
 
-# EnglishWritingSkills
+## EnglishWritingSkills
 ~~~bash
 english-writing-platform/
 ├── server.js              # Node.js 백엔드 서버
